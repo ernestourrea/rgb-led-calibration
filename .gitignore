@@ -50,3 +50,30 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# MPLAB
+*.pre
+*.p1
+*.lst
+*.sym
+*.sdb
+*.obj.dmp
+*.properties
+*.production
+*.debug
+*-local-default.mk
+nb-configuration.xml
+nbactions.xml
+
+# MPLAB Directories
+build/
+debug/
+dist/
+nbproject/private/
+html/
+nbproject/Package-*.bash
+nbbuild/
+nbdist/
+funclist
+disassembly/
+.generated_files/
